@@ -60,3 +60,6 @@ on property:dev.bootcomplete=1
 
     # cpufreq settings
     write /dev/cpuctl/apps/cpu.notify_on_migrate 0
+
+    # Activate swap
+    exec - root system -- /system/xbin/swapon.sh
