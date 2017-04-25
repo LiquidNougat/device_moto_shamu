@@ -22,7 +22,6 @@ TARGET_CPU_VARIANT := krait
 
 # Optimizations
 STRICT_ALIASING := true
-POLLY_OPTS := true
 GRAPHITE_OPTS := true
 
 ENABLE_CPUSETS := true
